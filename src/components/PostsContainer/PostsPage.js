@@ -6,8 +6,10 @@ import "./Posts.css";
 import dummyData from "../../dummy-data";
 
 
+
 const PostsPage = () => {
   // set up state for your data
+ 
   return (
     <div className="posts-container-wrapper">
       {dummyData.map( (item) => {
